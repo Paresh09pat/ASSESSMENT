@@ -1,0 +1,13 @@
+body{
+    color: brown;
+}
+h1{
+    color: red;
+}
+h2{
+    color: rgb(229, 25, 25);
+    font-style: italic;
+}
+ul{
+    letter-spacing: 2px;
+}
