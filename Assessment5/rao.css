@@ -307,14 +307,14 @@ background-color: transparent;
 }
 
 .front-wheel{
-  left: 832px;
-  top: 570px;
+  left: 55.5%;
+  top: 84%
   position: absolute;
 }
 
 .back-wheel{
   left: 39%;
-  top: 570px;
+  top: 84%;
   position: absolute;
 }
 
