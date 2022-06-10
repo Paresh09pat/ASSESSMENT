@@ -1,0 +1,245 @@
+.all{
+background-image: url(road.jpeg);
+background-repeat:no-repeat;
+background-size:cover;
+display:block;
+}
+
+.he{
+    width: 100%;
+}
+
+.he1{
+    background-color: white;
+    margin-left: 50px;
+    width: 5%;
+    background-color: none;
+}
+
+.he1 img{
+    width: 80px;
+    height: 60px;  
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 0%;
+    padding: 0;
+    background-color: rgb(227, 51, 51);
+    width:100%;
+  }
+  
+  li {
+    float:right;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    position:relative;
+    bottom: 70px;
+  }
+  
+#not{
+    height: 80%;
+    position: relative;  
+}
+
+.ok{
+width: 45%;
+margin: 10px;
+position: absolute;
+margin-top: 9%;
+margin-left: 8%;
+}
+
+.ok1{
+color: white;
+font-size: 100px;
+font-weight: bolder;
+}
+
+.ok2{
+color: white;
+}
+
+.ok3{
+width: 40%;
+text-align: center;
+border-radius: 10cm;
+background-color: aliceblue;
+padding: 5px;
+}
+
+.des{
+    display: flex;
+    position: relative;
+    height: 90%;
+    width: 40%;
+    float: left;
+    margin-left:55% ;
+    color: white;
+    bottom: 10%;
+    margin-top: 1.25%;
+   
+}
+
+.des:hover{
+    
+}
+
+.des div{
+position: absolute;
+width: 37%;
+height: 45%;
+border-radius: 10px;
+padding-left: 10px;
+}
+
+.pic1{
+    left: 5%;
+    top: 3%;
+    background-image: url(cam.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    transition-duration: .5s;
+}
+
+.pic1:hover{
+    transform: translateY(-15px);
+}
+
+.pic2{
+    left: 55%;
+    top: 3%;
+    background-image: url(mou.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    transition-duration: .5s;
+}
+
+.pic2:hover{
+    transform: translateY(-15px);
+}
+
+.pic3{
+    top: 53%;
+    left: 5%;
+    background-image: url(piramid.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin-bottom:0 0 10px 0;
+    transition-duration: .5s;
+}
+
+.pic3:hover{
+    transform: translateY(-15px);
+}
+
+.pic4{
+    left: 55%;
+    top: 53%;
+    background-image: url(night.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    margin-bottom:0 0 10px 0;
+    transition-duration: .5s;
+}
+
+.pic4:hover{
+    transform: translateY(-15px);
+}
+
+@media only screen and (max-width: 768px) {
+    .all{
+    background-image: url(road.jpeg);
+    background-repeat:repeat-y;
+    background-size:cover;
+    display:block;
+        
+    }
+#not{
+    display: block;
+}
+
+.des{
+    display: flex;
+    top: 38%;
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+    position:absolute ;
+}
+
+.des div{
+    width: 90%;
+}
+
+.pic1{
+width: 90%;
+top: 0%;
+transition-duration: .5s;
+}
+
+.pic1:hover{
+    transform: translateY(-15px);
+}
+
+
+.pic2{
+top: 55%;
+left: 5%;
+transition-duration: .5s;
+}
+
+.pic2:hover{
+    transform: translateY(-15px);
+}
+
+.pic3{
+top: 110%;
+transition-duration: .5s;
+}
+
+.pic3:hover{
+    transform: translateY(-15px);
+}
+
+.pic4{
+    top: 165%;
+    left: 5%;
+    transition-duration: .5s;
+}
+
+.pic4:hover{
+    transform: translateY(-15px);
+}
+
+.ok{
+    width: 100%;
+    top:-8%;
+    margin-left: 5%;
+}
+
+.ok1{
+    font-size: xx-large;
+}
+
+.ok3{
+    width: 25%;
+    text-align: center;
+    border-radius: 10cm;
+    background-color: aliceblue;
+    padding: 6px;
+}
+
+.ul{
+    width: 90%;
+    border: 1px solid black;
+}
+
+
+}
